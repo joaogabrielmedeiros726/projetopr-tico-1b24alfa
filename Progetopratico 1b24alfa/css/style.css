@@ -4,8 +4,50 @@ max-width: 1200px;
 margin: 0 auto;
 }
 .logo img{
- max-width: 100px;
+ max-width: 1000px;
 }
 .menu ul li{
     display: inline;
+}
+header { 
+    padding: 20px 0;
+
+}
+    .logo,.menu{
+        display: inline-block;
+}
+.menu ul li a {
+    color: black;
+    text-decoration: none;
+    
+
+    display: inline;
+    padding: 0 25px;
+    font-size: 20px;
+}
+.menu{
+    position: relative;
+    bottom: 80px;
+}
+.menu ul li a:hover {
+    color: green;
+    border-bottom: 3px solid green;
+    padding-bottom: 15px;
+}
+.slider{
+   background-image: url(../img/slider.jpeg);
+   height: 400px;
+   background-position-x: center;
+   background-position-y: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+.item {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+}
+.item img{
+    width: 100%;
 }
